@@ -1,37 +1,45 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
 
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     font-size: 1rem;
 }
 
-:root{
+:root {
     /*|||||||||||||||| Colors |||||||||||||||||||||||||*/
 
 
     /*\\\\\\\\ Primary \\\\\\\\\\\*/
 
-    --primarLightColor: hsl(215, 51%, 70%); /* - Soft blue */
-    --primaryDarkColor: hsl(178, 100%, 50%); /* - Cyan */
+    --primarLightColor: hsl(215, 51%, 70%);
+    /* - Soft blue */
+    --primaryDarkColor: hsl(178, 100%, 50%);
+    /* - Cyan */
 
     /*/////////// Neutral /////////////*/
 
-    --neutralMainDarkColor: hsl(217, 54%, 11%); /* - Very dark blue (main BG) */
-    --neutralCardDarkColor: hsl(216, 50%, 16%); /* - Very dark blue (card BG) */
-    --neutalLineDarkColor: hsl(215, 32%, 27%); /* - Very dark blue (line) */
-    --neutralLightColor: hsl(0, 0%, 100%);/* - White */
+    --neutralMainDarkColor: hsl(217, 54%, 11%);
+    /* - Very dark blue (main BG) */
+    --neutralCardDarkColor: hsl(216, 50%, 16%);
+    /* - Very dark blue (card BG) */
+    --neutalLineDarkColor: hsl(215, 32%, 27%);
+    /* - Very dark blue (line) */
+    --neutralLightColor: hsl(0, 0%, 100%);
+    /* - White */
 
     /*////////////// Typography //////////////////*/
 
-    --FSize: 18px; /* font-size */
+    --FSize: 18px;
+    /* font-size */
 
-    --FF: 'Outfit', sans-serif; /* Font-Family */
+    --FF: 'Outfit', sans-serif;
+    /* Font-Family */
 
 }
 
-body{
+body {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -40,60 +48,106 @@ body{
     line-height: 1.4;
     font-family: var(--FF);
 }
-.container{
+
+.container {
     background-color: #fff;
     max-width: 19.25rem;
     padding: 1.2rem;
     border-radius: 0.8rem;
-}
-.container .nft-pic{
-    width:16.85rem;
-    height:auto;
-    border-radius: 0.65rem;
-}
-h1{
-    font-size: 1.25rem;
-    letter-spacing: -0.1px;
-    margin: .8rem 0;
-}
-p{
-    margin: .8rem 0;
-    border: 1px solid black;
-    align-items: center;
+    background-color: var(--neutralCardDarkColor);
+    box-shadow: 5px 5px 12px 3px rgb(0 0 0 / 4%);
+    position: relative;
 }
 
-.container .eth-rate .icon{
-    height: 13px;
-    width: auto;
-    
+.container .nft-pic {
+    width: 16.85rem;
+    height: auto;
+    border-radius: 0.65rem;
     
 }
-.container .clock .icon{
+
+.nft-overlay{
+    width: 16.85rem;
+    height: 16.85rem;
+    border-radius: 0.65rem;
+    background-color: var(--primaryDarkColor);
+    position: absolute;
+    opacity: 0.5;
+    top:1.2rem;
+    cursor: pointer;
+}
+
+
+h1 {
+    font-size: 1.25rem;
+    margin: .8rem 0;
+    color:var(--neutralLightColor);
+    cursor: pointer;
+    transition: .2s ease;
+}
+h1:hover{
+    color:var(--primaryDarkColor);
+}
+
+p {
+    align-items: center;
+    color: var(--primarLightColor);
+}
+
+.container .eth-box{
+    margin-top: 0.6rem;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.container .eth-rate p{
+    color: var(--primaryDarkColor);
+}
+
+.container div .eth-rate, .container div .clock{
+    display: flex;
+    align-items: center;
+
+}
+
+.container .eth-rate .icon {
+    height: 14px;
+    width: auto;
+    padding-right: 5px;    
+}
+
+.container .clock .icon {
     height: 16px;
     width: auto;
-    vertical-align: middle;
-    
-
+    padding-right: 5px;  
 }
 
+.container .line {
+    width: 100%;
+    height: 1px;
+    background-color:var(--primarLightColor);
+    margin: .8rem 0;
+}
 
-
-
-
-.container .creator{
+.container .creator {
     display: flex;
     align-items: center;
 }
-.container .line{
-    width: 100%;
-    height: 1px;
-    background-color: black;
 
-}
-.container .creator p{
+.container .creator p {
     padding-left: 0.5rem;
 }
-.container img{
+.container .creator p span{
+    cursor: pointer;
+    color:var(--neutralLightColor);
+}
+.container .creator p span:hover{
+    color:var(--primaryDarkColor);
+}
+
+.container .creator img {
     width: 28px;
     height: 28px;
+    border-radius: 50%;
+    border: 1.5px solid var(--neutralLightColor);
 }
