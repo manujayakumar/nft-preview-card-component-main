@@ -5,18 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Frontend Mentor | NFT Preview card component</title>
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <main>
+    <main class="container">
       <figure>
-        <img src="./images/image-equilibrium.jpg" alt="Equilibrium" />
+        <img
+          class="nft-pic"
+          src="./images/image-equilibrium.jpg"
+          alt="Equilibrium"
+        />
       </figure>
-      <h2>Equilibrium #3429</h2>
+      <h1>Equilibrium #3429</h1>
       <p>Our Equilibrium collection promotes balance and calm.</p>
-      <ul class="box">
-        <li>0.041ETH</li>
-        <li>3 days left</li>
-      </ul>
+      <p>
+        <span class="eth-rate"
+          ><img
+            src="./images/icon-ethereum.svg"
+            alt="Ethereum Icon"
+            class="icon"
+          />0.041 ETH</span
+        >
+        <span class="clock"
+          ><img src="./images/icon-clock.svg" alt="clock Icon" class="icon" />3
+          days left</span
+        >
+      </p>
       <div class="line"></div>
       <div class="creator">
         <img src="./images/image-avatar.png" alt="Jules Wyvern" />
