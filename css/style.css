@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+}
+
+:root{
+    /*|||||||||||||||| Colors |||||||||||||||||||||||||*/
+
+
+    /*\\\\\\\\ Primary \\\\\\\\\\\*/
+
+    --primarLightColor: hsl(215, 51%, 70%); /* - Soft blue */
+    --primaryDarkColor: hsl(178, 100%, 50%); /* - Cyan */
+
+    /*/////////// Neutral /////////////*/
+
+    --neutralMainDarkColor: hsl(217, 54%, 11%); /* - Very dark blue (main BG) */
+    --neutralCardDarkColor: hsl(216, 50%, 16%); /* - Very dark blue (card BG) */
+    --neutalLineDarkColor: hsl(215, 32%, 27%); /* - Very dark blue (line) */
+    --neutralLightColor: hsl(0, 0%, 100%);/* - White */
+
+    /*////////////// Typography //////////////////*/
+
+    --FSize: 18px; /* font-size */
+
+    --FF: 'Outfit', sans-serif; /* Font-Family */
+
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: var(--neutralMainDarkColor);
+    line-height: 1.4;
+    font-family: var(--FF);
+}
+.container{
+    background-color: #fff;
+    max-width: 19.25rem;
+    padding: 1.2rem;
+    border-radius: 0.8rem;
+}
+.container .nft-pic{
+    width:16.85rem;
+    height:auto;
+    border-radius: 0.65rem;
+}
+h1{
+    font-size: 1.25rem;
+    letter-spacing: -0.1px;
+    margin: .8rem 0;
+}
+p{
+    margin: .8rem 0;
+}
+p 
+
+.container .creator{
+    display: flex;
+    align-items: center;
+
+}
+.container .line{
+    width: 100%;
+    height: 1px;
+    background-color: black;
+
+}
+.container .creator p{
+    padding-left: 0.5rem;
+}
+.container img{
+    width: 28px;
+    height: 28px;
+}
