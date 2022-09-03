@@ -58,13 +58,31 @@ h1{
 }
 p{
     margin: .8rem 0;
+    border: 1px solid black;
+    align-items: center;
 }
-p 
+
+.container .eth-rate .icon{
+    height: 13px;
+    width: auto;
+    
+    
+}
+.container .clock .icon{
+    height: 16px;
+    width: auto;
+    vertical-align: middle;
+    
+
+}
+
+
+
+
 
 .container .creator{
     display: flex;
     align-items: center;
-
 }
 .container .line{
     width: 100%;
