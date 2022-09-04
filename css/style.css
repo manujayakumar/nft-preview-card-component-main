@@ -143,10 +143,13 @@ p {
 .container .creator p {
     padding-left: 0.5rem;
 }
+
 .container .creator p span{
+    padding-left: 0.20rem;
     cursor: pointer;
     color:var(--neutralLightColor);
 }
+
 .container .creator p span:hover{
     color:var(--primaryDarkColor);
 }
