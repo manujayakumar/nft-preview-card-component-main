@@ -20,7 +20,7 @@ Mobile view:
 ![]()
 ### Links
 - Solution URL: [Frontend Mentor Solution]()
-- Live Site URL: [Live Site at Vercel]()
+- Live Site URL: [Live Site at Vercel](https://nft-preview-card-component-main-1t2a5ahg4-manujayakumar.vercel.app/)
 ## My process
 ### Built with
 - Semantic HTML5 markup
