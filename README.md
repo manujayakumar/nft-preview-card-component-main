@@ -13,11 +13,11 @@
 ### ScreenShot
 Desktop view:
 
-![]()
+![](https://github.com/manujayakumar/nft-preview-card-component-main/blob/main/screenshot/desktop-view.PNG)
 
 Mobile view:
 
-![]()
+![](https://github.com/manujayakumar/nft-preview-card-component-main/blob/main/screenshot/mobile-view.PNG)
 ### Links
 - Solution URL: [Frontend Mentor Solution]()
 - Live Site URL: [Live Site at Vercel](https://nft-preview-card-component-main-1t2a5ahg4-manujayakumar.vercel.app/)
@@ -32,7 +32,7 @@ I have learn how to position div. center using both Flexbox, Grid with their pro
 ### Useful resources
 - W3 Schools 
   - [Flex](https://www.w3schools.com/css/css3_flexbox.asp) 
-  - [Grid]()
+  - [Opacity]()
 ## Author
 - Github - [manujayakumar](https://github.com/manujayakumar)
 - Frontend Mentor - [manujayakumar](https://www.frontendmentor.io/profile/manujayakumar)
