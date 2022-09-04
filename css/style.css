@@ -65,16 +65,22 @@ body {
     border-radius: 0.65rem;
     
 }
-
 .nft-overlay{
     width: 16.85rem;
     height: 16.85rem;
     border-radius: 0.65rem;
-    background-color: var(--primaryDarkColor);
-    position: absolute;
-    opacity: 0.5;
     top:1.2rem;
+    position: absolute;
+    display: grid;
+    place-items: center;
     cursor: pointer;
+    opacity: 0;
+}
+
+
+.nft-overlay:hover{
+    background-color:  hsla(178, 100%, 50%, 0.322);
+    opacity: 1;   
 }
 
 
@@ -150,4 +156,22 @@ p {
     height: 28px;
     border-radius: 50%;
     border: 1.5px solid var(--neutralLightColor);
+}
+@media screen and (min-width:900px) {
+
+    .container{
+        max-width: 20rem;
+    }
+
+    .container .nft-pic {
+        width: 17.70rem;
+    } 
+    .nft-overlay{
+        width: 17.70rem;
+        height: 17.70rem;
+    }
+    .container .line{
+        margin: 1.20rem 0;
+    }
+    
 }
