@@ -19,7 +19,7 @@ Mobile view:
 
 ![](https://github.com/manujayakumar/nft-preview-card-component-main/blob/main/screenshot/mobile-view.PNG)
 ### Links
-- Solution URL: [Frontend Mentor Solution]()
+- Solution URL: [Frontend Mentor Solution](https://www.frontendmentor.io/solutions/nft-preview-card-component-main-0eIckPYLQg)
 - Live Site URL: [Live Site at Vercel](https://nft-preview-card-component-main-1t2a5ahg4-manujayakumar.vercel.app/)
 ## My process
 ### Built with
